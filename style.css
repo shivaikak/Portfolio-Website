@@ -290,3 +290,74 @@ footer {
     font-size: 0.9rem;
     position: relative; /* Keeps the footer at the bottom of the content */
 }
+/* About Intro Section */
+.about-intro {
+    background: linear-gradient(to right, #ffe6f0, #ffffff); /* Light pink to white gradient */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #fff0f6; /* Very light pink */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background: linear-gradient(to right, #ffffff, #ffe6f0); /* White to light pink gradient */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* General Styles for About Page */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: rgb(102, 0, 51); /* Matches theme color */
+}
+
+p {
+    font-size: 1.2rem;
+    color: black;
+    line-height: 1.6;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Call-to-Action Buttons */
+.cta button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(102, 0, 51);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(102, 0, 51);
+}
+
+.cta button a {
+    color: white;
+    text-decoration: none;
+}
+
