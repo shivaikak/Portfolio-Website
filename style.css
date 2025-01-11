@@ -299,7 +299,7 @@ footer {
 
 /* Skills Section */
 .skills-section {
-    background-color: #fff0f6; /* Very light pink */
+    background-color: #fdfafb; /* Very light pink */
     padding: 50px 20px;
     text-align: center;
 }
@@ -444,7 +444,7 @@ p {
 .biotech-header {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, hsl(319, 36%, 74%), rgb(136, 133, 139));
+    background: linear-gradient(135deg, #cfebff, #e3bfd0);
     color: white;
 }
 
@@ -456,12 +456,110 @@ p {
 .biotech-header p {
     font-size: 1.2rem;
 }
-
-.biotech-main {
+/* Biotech Page Styling */
+.biotech-page {
+    background: linear-gradient(135deg, #fde2f2, #E3F2FD); /* Smooth blend of pink and blue */
     padding: 20px;
 }
 
-section {
+/* Section Layout */
+.biotech-page section {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effects */
+.biotech-page section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Content */
+.biotech-page .text-content {
+    flex: 1;
+    padding: 20px;
+    color: #333;
+}
+
+.biotech-page .text-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #1E88E5; /* Blue accent */
+}
+
+.biotech-page .text-content p {
+    line-height: 1.6;
+}
+
+/* Image Content */
+.biotech-page .image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.biotech-page .image-content img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Section Background Overlays */
+.biotech-page .intro {
+    background: linear-gradient(135deg, rgba(253, 210, 228, 0.9), rgba(204, 233, 253, 0.9)); /* Soft pink and blue */
+}
+
+.biotech-page .goals {
+    background: linear-gradient(135deg, rgba(227, 242, 253, 0.9), rgba(253, 226, 237, 0.9)); /* Soft blue and pink */
+}
+
+.biotech-page .research {
+    background: linear-gradient(135deg, rgba(249, 208, 228, 0.8), rgba(200, 229, 250, 0.8)); /* Alternate pink and blue */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .biotech-page section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .biotech-page .text-content,
+    .biotech-page .image-content {
+        flex: none;
+        width: 100%;
+    }
+
+    .biotech-page .image-content img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+.fashion-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ffc1dc, #FF9A8B);
+    color: white;
+}
+
+.fashion-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.fashion-header p {
+    font-size: 1.2rem;
+}
+
+/* Scoped to the Fashion and Art Page */
+.fashion-page section {
     display: flex;
     align-items: center;
     margin: 30px 0;
@@ -472,28 +570,28 @@ section {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-section:hover {
+.fashion-page section:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.text-content {
+.fashion-page .text-content {
     flex: 1;
     padding: 20px;
 }
 
-.text-content h2 {
+.fashion-page .text-content h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #102A43;
+    color: #D91E18;
 }
 
-.image-content {
+.fashion-page .image-content {
     flex: 1;
     text-align: center;
 }
 
-.image-content img {
+.fashion-page .image-content img {
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
