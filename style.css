@@ -441,3 +441,60 @@ p {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+.biotech-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, hsl(319, 36%, 74%), rgb(136, 133, 139));
+    color: white;
+}
+
+.biotech-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.biotech-header p {
+    font-size: 1.2rem;
+}
+
+.biotech-main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #102A43;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
